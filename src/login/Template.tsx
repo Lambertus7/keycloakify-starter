@@ -8,6 +8,7 @@ import { useInitialize } from "keycloakify/login/Template.useInitialize";
 import type { I18n } from "./i18n";
 import type { KcContext } from "./KcContext";
 import EmmaLogo from "../Assets/img/emma.png";
+import EmmaTraingle from "../Assets/img/traingleLogo.png";
 
 export default function Template(props: TemplateProps<KcContext, I18n>) {
     const {
@@ -57,6 +58,7 @@ export default function Template(props: TemplateProps<KcContext, I18n>) {
             <div id="kc-header" className={kcClsx("kcHeaderClass")}>
                 <div id="kc-header-wrapper" className={kcClsx("kcHeaderWrapperClass")}>
                     <img src={EmmaLogo} width={250}/>
+                    <img src={EmmaTraingle} width={100}/>
                 </div>
             </div>
             <div className={kcClsx("kcFormCardClass")}>
