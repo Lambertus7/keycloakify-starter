@@ -3,8 +3,8 @@ body.kcBodyClass {
     background: #fff;
 }
 
-#kc-header-wrapper.kcHeaderClass logiTitleHtml {
-background: #fff;
+#kc-header-wrapper.kcHeaderClass {
+background: url(../Assets/img/emma.png) no-repeat center center fixed;
 }
 
 
